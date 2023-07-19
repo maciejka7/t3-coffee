@@ -8,7 +8,7 @@ interface Props {
 
 export const MainLayout = ({ children }: Props) => {
   return (
-    <main className="flex min-h-screen flex-col bg-gradient-to-b from-slate-400 to-slate-200">
+    <main className="flex min-h-screen flex-col bg-stone-100 rounded-xl border border-stone-100 m-5">
       <MainMenu />
       {children}
     </main>
